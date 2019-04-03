@@ -1,6 +1,9 @@
 package jp.co.toyota.rest_api.validator;
 
 import java.io.UnsupportedEncodingException;
+import javax.validation.ConstraintValidatorContext;
+
+import java.io.UnsupportedEncodingException;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;

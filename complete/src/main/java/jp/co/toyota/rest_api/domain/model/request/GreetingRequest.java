@@ -5,10 +5,6 @@ import javax.validation.constraints.Size;
 
 import jp.co.toyota.rest_api.validator.ByteSize;
 import lombok.Data;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.NonNull;
-import lombok.Setter;
 
 /**
  * 退会リクエストオブジェクト.
@@ -23,5 +19,5 @@ public class GreetingRequest {
 	@Size(min = 1, max = 5)
 	@NonNull
 	private String name;
-	
+
 }
